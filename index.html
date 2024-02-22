@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap" rel="stylesheet">
+
+    <title>Jumping Joe</title>
+</head>
+<body>
+    <main>
+        <div id="game-intro">
+            <img src="images/Game start.png" alt="" class="game-start">
+            <br>
+            <button id="start-button">Let´s Jump</button>
+            <p>Use the left and right arrow to control the player and space to jump!</p>
+            <img src="images/arrows-button-left-and-right-navigation-icons-slider-.jpg" alt="" class="controller-img" /> <img src="images/jump.png" alt="" class="controller-img">
+        </div>
+
+        <div id="game-container">
+            <div>
+                <h2>ScoreBoard</h2>
+                <p>Score: <span id="score">0</span></p>
+                <p>Lives: <span id="lives">0</span></p>
+            </div>
+            <div id="game-screen"></div>
+        </div>
+
+        <div id="game-end">
+            <img src="images/Oops.gif" alt="" class="game-end">
+            <h1>Game Over</h1>
+            <br>
+            <button id="restart-button">Restart</button>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/player.js"></script>
+    <script type="text/javascript" src="js/obstacle.js"></script>
+    
+</body>
+</html>
