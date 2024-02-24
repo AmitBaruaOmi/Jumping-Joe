@@ -2,20 +2,14 @@
 
 
 ### PROJECT | JUMPING JOE
-___________________________________________________________________________
 
 
 ## Introduction
 
-___________________________________________________________________________
-
-
-We have made a 2D game using the knowledge we have gained so far in HTML, CSS, and JavaScript. In this exercise, we have created **"A Parkour Figure (JOE) jumping on the obstacles"** game using DOM manipulation, classes, and object-oriented programming (OOP).
+I have made a 2D game using the knowledge I have gained so far in HTML, CSS, and JavaScript. In this exercise, I have created **"A Parkour Figure (JOE) jumping on the obstacles"** game using DOM manipulation, classes, and object-oriented programming (OOP).
 
 
 ## Mission
-
-___________________________________________________________________________
 
 Player needs to avoid the obstacles either jumping or skipping from the side.
 
@@ -23,19 +17,20 @@ Colliding three times will end the game.
 
 Lives: 03
 
+
 ## Bugs
 
-___________________________________________________________________________
-
 Game structure dvelopement work in porogress.
+
 Bugs can be seen.
 
-  # Common bugs:
-  Road going opposite direction.
-  Player is not able to jump perfectly over the 
-  obstacles.
-  Margin of the player is a bit widen which makes the 
-  player to collide with the obstacle even though the 
-  obstacle is far away.
+
+# Common bugs:
+Road going opposite direction.
+
+Player is not able to jump perfectly over the 
+obstacles.
+
+Margin of the player is a bit widen which makes the player to collide with the obstacle even though the obstacle is far away.
   
 
