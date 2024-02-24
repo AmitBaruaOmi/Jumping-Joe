@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  text-align: center;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+#game-intro {
+  padding: 20px;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+#game-container {
+  display: flexbox;
+  width: 100;
+  padding: 20px;
+  justify-content: center;
+}
+
+#start-button {
+  font-family: "Protest Revolution", sans-serif;
+}
+
+#game-screen {
+  display: none;
+  align-content: center;
+  padding: 50px;
+  overflow: hidden;
+  position: relative;
+  background-image: url("/images/seamless-pattern-of-asphalt-road-with-grass-textured-road-paths-along-grass-covered-with-grass-vector.jpg");
+  background-size: cover;
+  animation: slide 3s forwards linear infinite;
+
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0px 1000px;
+  }
+  95% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px 50px;
+  }
+}
+
+#gmae-end {
+  display: none;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+#restart-button {
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.game-intro p {
+  font-size: 100px;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.game-start {
+  width: 500px;
+}
+
+.controller-img {
+  width: 120px;
+}
+
+body button {
+  font-size: 50px;
+  background-color: rgb(72, 74, 111);
+  color: rgb(8, 10, 11);
+  padding: 20px;
+  border: 5px;
+  box-shadow: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
