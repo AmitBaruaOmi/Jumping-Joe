@@ -103,7 +103,7 @@ class Game {
     }
 
 
-    if (Math.random() > 10.00 && this.obstacles.length < 3) {
+    if (Math.random() > 15.00 && this.obstacles.length < 3) {
       this.obstacles.push(new obstacle(this.gameScreen));
     }
 
