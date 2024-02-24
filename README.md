@@ -34,3 +34,4 @@ obstacles.
 Margin of the player is a bit widen which makes the player to collide with the obstacle even though the obstacle is far away.
   
 
+![download](https://github.com/AmitBaruaOmi/Jumping-Joe/assets/150852865/d2990f72-6e86-4db4-b73b-d66c78bc2132)
