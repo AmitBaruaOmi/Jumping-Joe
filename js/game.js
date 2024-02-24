@@ -65,7 +65,7 @@ class Game {
     this.player.updatePosition();
 
     this.obstacles.forEach(obstacle => {
-      obstacle.move();
+    obstacle.move();
     })
 
 
