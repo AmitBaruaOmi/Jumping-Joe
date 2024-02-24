@@ -7,9 +7,9 @@ class Game {
     this.scoreElement = document.getElementById("score");
     this.player = new Player(
       this.gameScreen,
+      150,
       190,
-      190,
-      190,
+      150,
       190,
       "./images/player.gif"
     );
@@ -107,7 +107,7 @@ class Game {
       this.obstacles.push(new obstacle(this.gameScreen));
     }
 
-    this,player.move();
+    this.player.move();
   }
 
   
