@@ -107,7 +107,7 @@ class Game {
       this.obstacles.push(new obstacle(this.gameScreen));
     }
 
-    this,player.move();
+    this.player.move();
   }
 
   
