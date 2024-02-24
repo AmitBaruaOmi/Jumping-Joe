@@ -75,7 +75,7 @@ class Game {
 
     for (let i = 0; i < this.obstacles.length; i++) {
       const obstacle = this.obstacles[i];
-      obstacle.move();
+      this.obstacle.move();
 
       
       if (this.player.didCollide(obstacle)) {

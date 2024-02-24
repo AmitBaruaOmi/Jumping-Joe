@@ -2,6 +2,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: "Protest Revolution", sans-serif;
+  background-color: rgb(179, 197, 19);
 }
 
 #game-intro {
@@ -26,10 +27,9 @@ body {
   padding: 50px;
   overflow: hidden;
   position: relative;
-  background-image: url("/images/asphalt-highway-road-with-grass-top-view-GT3FNE.jpg");
+  background-image: url("/images/road.gif");
   background-size: cover;
   animation: slide 3s forwards linear infinite;
-
 }
 
 @keyframes slide {
